@@ -29,7 +29,7 @@ public class Main {
         } else {
             for (int i = (int) a; i <= n; i++) {
                 for (int j = (int) b; j <= m; j++) {
-                    Sum += ((double)(i%j) / (double)(i + C));
+                    Sum += ((i%j) / (double)(i + C));
                 }
             }
             System.out.println("Your result is:" + Sum);
