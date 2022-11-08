@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+//C3 = 2
+//C17 = 14
+
 public class Main {
 	
 	public static void main(String[] args) {
